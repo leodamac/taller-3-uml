@@ -16,7 +16,8 @@ public class Curso {
     private String id;
     private String nombre;
     private boolean estadoDisponible;
-    private List actividadesSumativas;
+    private List<ActividadSumativa> actividadesSumativas;
+    private List<Foro> foros;
     
     public boolean inscribirEstudiante(Estudiante estudiante){
         estudiantesInscritos.add(estudiante);
@@ -28,5 +29,14 @@ public class Curso {
         return true;
     }
     
+    public void crearTarea(String titulo, DataTime fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id, DataTime fechaDePublicacion){
+        ActividadSumativa as = new Tarea();
+        actividadesSumativas.add(as);
+    }
+    
+    public void crearEvaluacion(String titulo, DataTime fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id, int limiteDeTiempo){
+        ActividadSumativa as = new Evaluacion();
+        actividadesSumativas.add(as);
+    }            
     
 }

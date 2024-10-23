@@ -8,12 +8,8 @@ package com.mycompany.taller3;
  *
  * @author CltControl
  */
-public abstract class ActividadSumativa {
-    protected String titulo;
-    protected DatTime fechaDeEntrega;
-    protected float puntajeMaximo;
-    protected String contenido;
-    protected float calificacion;
-    protected String id;
-
+public class Foro {
+    private String id;
+    private String tematica;
+    private int numeroDeComentarios;
 }
