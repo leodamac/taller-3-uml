@@ -8,17 +8,12 @@ package com.mycompany.taller3;
  *
  * @author CltControl
  */
-public class Usuario {
-    protected String usuario;
-    protected String contraseña;
-    protected String nombre;
-    protected String apellido;
-    
-    protected boolean logIn(){
+public class Estudiante extends PersonalAcademico {
+    protected boolean solicitarInscripcionCurso(Curso curso){
         return true;
     }
     
-    protected boolean logOut(){
+    protected boolean realizarActividadesSumativa(Curso curso, ActividadSumativa actividadSumativa){
         return true;
     }
 }

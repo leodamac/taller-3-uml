@@ -8,6 +8,22 @@ package com.mycompany.taller3;
  *
  * @author CltControl
  */
-public class Administrador {
+public class Administrador extends Usuario{
+    protected Usuario crearUsuarioConRol(String usuario, String contraseña){
+        Usuario user = new Usuario();
+        return user;
+    }
+    
+    protected boolean asignarPermiso(String usuario){
+        return true;
+    }
+    
+    protected boolean actualizarSoftware(){
+        return true;
+    }
+    
+    protected boolean asignarResponsable(Curso curso, Profesor responsable){
+        return true;
+    }
     
 }

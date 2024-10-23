@@ -8,17 +8,16 @@ package com.mycompany.taller3;
  *
  * @author CltControl
  */
-public class Usuario {
-    protected String usuario;
-    protected String contraseña;
-    protected String nombre;
-    protected String apellido;
-    
-    protected boolean logIn(){
+public class PersonalAcademico extends Usuario {
+    protected boolean reportarError(String email, String contenido){
         return true;
     }
     
-    protected boolean logOut(){
+    protected boolean solicitarAsesoramientoDelSistema(String email, String contenido){
+        return true;
+    }
+    
+    protected boolean comentarEnForo(Foro foro, String comentario){
         return true;
     }
 }
