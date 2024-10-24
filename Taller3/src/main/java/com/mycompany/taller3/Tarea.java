@@ -4,10 +4,12 @@
  */
 package com.mycompany.taller3;
 
+import java.util.Date;
+
 /**
  *
  * @author CltControl
  */
 public class Tarea extends ActividadSumativa {
-    private DataTime fechaDePublicacion;
+    private Date fechaDePublicacion;
 }
