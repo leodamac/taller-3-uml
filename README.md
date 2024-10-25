@@ -8,4 +8,5 @@ https://online.visual-paradigm.com/share.jsp?id=333636343930382d31
 
 ## Caso de uso 2
 
-![Diagrama de secuencia-Page-2](https://github.com/user-attachments/assets/33793b1f-2adb-4330-b1c5-27e2be0abb43)
+![Diagrama de secuencia-Page-2](https://github.com/user-attachments/assets/d36130a3-8d56-4adf-928e-b9d65ef9e89e)
+
